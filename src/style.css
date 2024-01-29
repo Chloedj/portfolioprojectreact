@@ -3,10 +3,12 @@
     --hover-color: #D11753;
     --font-family: 'Nunito', sans-serif;
     --header-height: 500px;
+    --main-background: #EDF7FA
 }
 
 body {
     font-family: var(--font-family);
+    
 }
 
 header {
@@ -29,4 +31,18 @@ h2 {
 .custom-button:hover {
     background-color: var(--hover-color);
     border-color: var(--hover-color);
+}
+
+.primary-link {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    background-color: var(--main-background);
+}
+.main-heading {
+    font-size: 44px;
+    text-align: center;
+    padding-top: 50px;
 }
