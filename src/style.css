@@ -1,4 +1,32 @@
+:root {
+    --primary-color: #EA1D5D;
+    --hover-color: #D11753;
+    --font-family: 'Nunito', sans-serif;
+    --header-height: 500px;
+}
+
 body {
-    font-family: 'Nunito', sans-serif;
-    
+    font-family: var(--font-family);
+}
+
+header {
+    background-image: url("../images/bg.png");
+    height: var(--header-height);
+    background-size: cover;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-size: 24px;
+}
+
+.custom-button {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.custom-button:hover {
+    background-color: var(--hover-color);
+    border-color: var(--hover-color);
 }
