@@ -53,6 +53,11 @@ h2 {
 .aboutmep{
     font-size: 14px;
 }
+
+.projectview {
+    padding: 100px
+}
+
 @media (max-width: 768px) {
     .main-heading {
         font-size: 28px;
@@ -74,4 +79,8 @@ h2 {
         width: 100%;
         height: auto;
     }
+
+        .projectview {
+            padding: 10px
+        }
 }
