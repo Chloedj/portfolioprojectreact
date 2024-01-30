@@ -11,7 +11,10 @@ body {
    
 }
 
-.hero, .aboutme {
+.nav-image {
+    max-height: 50px;
+}
+.hero, .aboutme, .work-title, .contact-title {
     background-image: url("../images/bg.png");
 background-size: cover;
     background-position: center;
