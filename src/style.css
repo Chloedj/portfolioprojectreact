@@ -3,12 +3,14 @@
     --hover-color: #D11753;
     --font-family: 'Nunito', sans-serif;
     --header-height: 500px;
-    --main-background: #EDF7FA
+    --main-background: #EDF7FA;
 }
 
 body {
     font-family: var(--font-family);
-   
+    background-color: var(--main-background);
+    color: #333;
+    
 }
 
 .nav-image {
@@ -86,9 +88,30 @@ h2 {
         .projectview {
             padding: 10px
         }
+
+                 .contact-title {
+                     font-size: 28px;
 }
 
 
+.contact-title {
+    margin-top: 30px;
+    color: var(--primary-color);
+    font-size: 36px;
+    font-weight: bold;
+}
+
 .contact-info {
-    padding-top: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.contact-link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    color: var(--hover-color);
+    text-decoration: underline;
 }
